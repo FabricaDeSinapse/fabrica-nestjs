@@ -9,7 +9,6 @@ import {
   Put,
 } from '@nestjs/common';
 import { MessagesService } from './messages.service';
-import { Message } from './Message';
 import { MessageDto } from './MessageDto';
 
 @Controller('messages')
